@@ -1,0 +1,30 @@
+[
+  {
+    "question": "what is your name?",
+    "answer": "I am a chatbot."
+  },
+  {
+    "question": "how are you?",
+    "answer": "I am fine, thank you!"
+  },
+  {
+    "question": "hello",
+    "answer": "Hello! How can I help you?"
+  },
+  {
+    "question": "what is your age?",
+    "answer": "I am a chatbot, I don't have an age."
+  },
+  {
+    "question": "who is the ceo of microsoft?",
+    "answer": "satya nadella"
+  },
+  {
+    "question": "bye",
+    "answer": "bye!"
+  },
+  {
+    "question": "hi",
+    "answer": "hii"
+  }
+]
