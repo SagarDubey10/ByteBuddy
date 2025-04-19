@@ -124,14 +124,17 @@ def help():
      return render_template('help.html')
 
 def save_conversation(username, message, response):
-    conn = sqlite3.connect('byte_buddy.db')
-    c = conn.cursor()
-    c.execute('''
-        INSERT INTO conversations (username, message, response)
-        VALUES (?, ?, ?)
-    ''', (username, message, response))
-    conn.commit()
-    conn.close()
+    try:
+        with sqlite3.connect('byte_buddy.db') as conn:
+            c = conn.cursor()
+            c.execute('''
+                INSERT INTO conversations (username, message, response)
+                VALUES (?, ?, ?)
+            ''', (username, message, response))
+            conn.commit()
+    except sqlite3.Error as e:
+        print(f"Database error: {e}")
+
 
 @app.route('/history')
 def history():
