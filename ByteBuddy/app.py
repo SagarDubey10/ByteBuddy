@@ -45,7 +45,7 @@ def get_answer(user_question: str, knowledge_base: list) -> str | None:
 def index():
     if 'username' not in session:
         return redirect(url_for('login'))
-    return render_template('index.html')
+    return render_template('chat.html')
 
 
 @app.route('/chat', methods=['POST'])
@@ -172,7 +172,7 @@ def signup():
 
 @app.route('/dashboard')
 def dashboard():
-    return render_template('index.html')
+    return render_template('chat.html')
 
 
 if __name__ == "__main__":

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Byte Buddy Chat</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/chat.css') }}">
+</head>
+<body>
+
+<!-- Sidepanel -->
+<div id="mySidepanel" class="sidepanel">
+    <h2>Byte Buddy Help</h2>
+    <ul>
+        <li><a href="#">Introduction</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Feedback</a></li>
+    </ul>
+    <p><a href="{{ url_for('logout') }}">Logout</a>
+        <br>
+    </div>
+
+<!-- Open button for the side panel -->
+<button class="openbtn" id="toggleButton" onclick="toggleNav()">☰</button>
+
+<!-- Chat container -->
+<div class="chat-container">
+    <div id="intro-message">
+        Welcome to Byte Buddy Chat! Ask me anything.
+    </div>
+
+    <!-- Move the logo here, between chat and message input -->
+    <img id="company-logo" src="static/images/ByteBuddy.png" alt="Company Logo">
+
+    <div class="chat-box" id="chat-box"></div>
+    <div class="chat-inner-container">
+    <div class="input-container">
+        <input type="text" id="user-input" placeholder="Type your message...">
+        <div class="send-button-container">
+            <img src="{{ url_for('static', filename='images/send-message.png') }}" alt="Send Message" id="send-button">
+        </div>
+    </div>
+    </div>
+
+    <!-- Help icon -->
+    <img src="{{ url_for('static', filename='images/bx-help-circle.svg') }}" alt="Help Circle" class="help-logo" onclick="redirectToHelp()">
+
+    <!-- Slogan, will be hidden when user starts typing -->
+    <div id="quote">Byte Buddy is here to assist you! 😊</div>
+</div>
+
+<script src="{{ url_for('static', filename='scripts/chat.js') }}"></script>
+</body>
+</html>
