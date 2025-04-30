@@ -121,8 +121,9 @@ document.addEventListener('DOMContentLoaded', function () {
         window.location.href = "{{ url_for('logout') }}";
     }
 
-    // Redirect to help page
-    function redirectToHelp() {
-        window.location.href = "/help";
-    }
+
 });
+// Redirect to help page
+function redirectToHelp() {
+    window.location.href = "/help";
+}
