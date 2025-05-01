@@ -17,18 +17,82 @@
   },
   {
     "question": "who is the ceo of microsoft?",
-    "answer": "satya nadella"
+    "answer": "Satya Nadella"
   },
   {
     "question": "bye",
-    "answer": "bye!"
+    "answer": "Bye!"
   },
   {
     "question": "hi",
-    "answer": "hii"
+    "answer": "Hi there!"
   },
   {
-    "question": "",
-    "answer": "satya nadela"
+    "question": "what is python?",
+    "answer": "Python is a high-level, interpreted programming language known for its readability and versatility."
+  },
+  {
+    "question": "what is html?",
+    "answer": "HTML stands for HyperText Markup Language. It is used to create the structure of web pages."
+  },
+  {
+    "question": "what is css?",
+    "answer": "CSS stands for Cascading Style Sheets. It is used to style and layout web pages."
+  },
+  {
+    "question": "what is javascript?",
+    "answer": "JavaScript is a scripting language used to create and control dynamic website content."
+  },
+  {
+    "question": "how to stay focused while studying?",
+    "answer": "Keep your phone away, take regular breaks, and set small achievable goals to stay focused."
+  },
+  {
+    "question": "what is the time now?",
+    "answer": "I can't access real-time data, but you can check the time on your device."
+  },
+  {
+    "question": "how to improve coding skills?",
+    "answer": "Practice regularly, build projects, and solve problems on platforms like LeetCode or HackerRank."
+  },
+  {
+    "question": "how to stay healthy?",
+    "answer": "Eat balanced meals, exercise regularly, and get enough sleep."
+  },
+  {
+    "question": "tell me a joke",
+    "answer": "Why don't programmers like nature? It has too many bugs!"
+  },
+  {
+    "question": "how to make coffee?",
+    "answer": "Boil water, add coffee powder or use a coffee machine, pour hot water, and stir. Add sugar or milk as needed."
+  },
+  {
+    "question": "what is ai?",
+    "answer": "AI stands for Artificial Intelligence. It's the simulation of human intelligence in machines."
+  },
+  {
+    "question": "what is machine learning?",
+    "answer": "Machine Learning is a subset of AI that allows systems to learn and improve from experience without being explicitly programmed."
+  },
+  {
+    "question": "who created python?",
+    "answer": "Python was created by Guido van Rossum."
+  },
+  {
+    "question": "what is github?",
+    "answer": "GitHub is a platform for version control and collaboration. It allows developers to store and manage their code."
+  },
+  {
+    "question": "what is cloud computing?",
+    "answer": "Cloud computing is the delivery of computing services like storage, databases, and servers over the internet."
+  },
+  {
+    "question": "how to prepare for interviews?",
+    "answer": "Study data structures, algorithms, system design, and practice mock interviews."
+  },
+  {
+    "question": "what is your favorite color?",
+    "answer": "I don’t have preferences, but blue is nice!"
   }
 ]
