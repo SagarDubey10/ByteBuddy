@@ -94,5 +94,65 @@
   {
     "question": "what is your favorite color?",
     "answer": "I don’t have preferences, but blue is nice!"
+  },
+  {
+    "question": "what is sql?",
+    "answer": "SQL stands for Structured Query Language. It is used to manage and manipulate relational databases."
+  },
+  {
+    "question": "what is api?",
+    "answer": "API stands for Application Programming Interface. It allows different software systems to communicate with each other."
+  },
+  {
+    "question": "what is operating system?",
+    "answer": "An operating system is system software that manages computer hardware, software resources, and provides common services for programs."
+  },
+  {
+    "question": "what is recursion?",
+    "answer": "Recursion is a programming technique where a function calls itself to solve a smaller version of the problem."
+  },
+  {
+    "question": "what is data structure?",
+    "answer": "A data structure is a way of organizing and storing data so that it can be accessed and modified efficiently."
+  },
+  {
+    "question": "what is an algorithm?",
+    "answer": "An algorithm is a set of well-defined instructions to perform a task or solve a problem."
+  },
+  {
+    "question": "how to manage time effectively?",
+    "answer": "Prioritize tasks, set deadlines, avoid multitasking, and use planners or to-do lists to manage your time."
+  },
+  {
+    "question": "how to deal with exam stress?",
+    "answer": "Prepare in advance, take breaks, stay positive, and maintain a healthy routine to manage exam stress."
+  },
+  {
+    "question": "who is elon musk?",
+    "answer": "Elon Musk is the CEO of SpaceX and Tesla, and the founder of several tech companies."
+  },
+  {
+    "question": "what is a compiler?",
+    "answer": "A compiler is a program that converts source code written in a programming language into machine code."
+  },
+  {
+    "question": "what is debugging?",
+    "answer": "Debugging is the process of identifying and fixing errors or bugs in a program."
+  },
+  {
+    "question": "how to learn programming?",
+    "answer": "Start with a beginner-friendly language, practice regularly, build small projects, and seek help from online communities."
+  },
+  {
+    "question": "how to get better at problem solving?",
+    "answer": "Practice different types of problems, understand the logic behind solutions, and participate in coding contests."
+  },
+  {
+    "question": "what is the internet?",
+    "answer": "The internet is a global network that connects millions of computers and allows the sharing of information."
+  },
+  {
+    "question": "what is cybersecurity?",
+    "answer": "Cybersecurity is the practice of protecting systems, networks, and data from digital attacks."
   }
 ]
