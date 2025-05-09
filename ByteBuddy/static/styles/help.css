@@ -1,89 +1,130 @@
-/* Add your styles for the help section here */
-
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
-    background-color: #f3f4f6;
-    color: #333;
-    /* Main text color */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
 }
 
-.help-container {
-    max-width: 800px;
-    margin: 50px auto;
-    padding: 30px;
-    background-color: #fff;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem;
 }
 
-.help-container h2 {
-    color: #4CAF50;
-    /* Header color */
-    font-size: 36px;
-    margin-bottom: 20px;
-    border-bottom: 2px solid #4CAF50;
-    padding-bottom: 10px;
-}
-
-.help-container h3 {
-    color: #007bff;
-    /* Subheader color */
-    font-size: 24px;
-    margin-top: 30px;
-}
-
-.help-container p {
-    margin-bottom: 15px;
-    line-height: 1.6;
-}
-
-.help-container ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.help-container li {
-    margin-bottom: 10px;
-    line-height: 1.6;
-}
-
-.help-container a {
-    color: #007bff;
-    text-decoration: none;
-}
-
-.help-container a:hover {
-    text-decoration: underline;
-}
-
-.footer {
-    background-color: #f8f9fa;
-    padding: 20px;
+.hero-full {
+    background: linear-gradient(135deg, #1e1e2f, #2a2a40);
+    padding: 4rem 2rem;
     text-align: center;
-    margin-top: 50px;
-    border-top: 1px solid #ddd;
+    color: #ffffff;
 }
 
-.footer p {
-    margin-bottom: 10px;
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
 }
 
-.footer ul {
-    list-style-type: none;
+.hero-content p {
+    font-size: 1.25rem;
+    max-width: 600px;
+    margin: auto;
+}
+
+.features {
+    padding: 3rem 2rem;
+    background-color: #181818;
+}
+
+.features h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.feature-card {
+    background-color: #222;
+    padding: 1.5rem;
+    border-radius: 10px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.feature-card:hover {
+    background-color: #2d2d2d;
+}
+
+.feature-card i {
+    color: #00bcd4;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.cta {
+    background: #292929;
+    color: #fff;
+    text-align: center;
+    padding: 3rem 2rem;
+}
+
+.cta h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.cta p {
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+}
+
+.btn {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-light {
+    background-color: #00bcd4;
+    color: #000;
+}
+
+footer {
+    background-color: #121212;
+    color: #999;
+    padding: 3rem 2rem;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 2rem;
+}
+
+.footer-column h3 {
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.footer-column ul {
+    list-style: none;
     padding: 0;
 }
 
-.footer li {
-    margin-bottom: 10px;
+.footer-column ul li {
+    margin-bottom: 0.5rem;
+    cursor: pointer;
 }
 
-.footer a {
-    color: #007bff;
-    text-decoration: none;
-}
-
-.footer a:hover {
-    text-decoration: underline;
+.footer-bottom {
+    text-align: center;
+    margin-top: 2rem;
+    border-top: 1px solid #333;
+    padding-top: 1rem;
+    font-size: 0.9rem;
 }

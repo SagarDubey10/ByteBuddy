@@ -125,5 +125,6 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 // Redirect to help page
 function redirectToHelp() {
-    window.location.href = "/help";
+    window.open('/help', '_blank');
 }
+s
