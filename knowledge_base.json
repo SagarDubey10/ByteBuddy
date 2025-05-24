@@ -93,7 +93,7 @@
   },
   {
     "question": "what is your favorite color?",
-    "answer": "I don’t have preferences, but blue is nice!"
+    "answer": "I don\u00e2\u20ac\u2122t have preferences, but blue is nice!"
   },
   {
     "question": "what is sql?",
@@ -154,5 +154,13 @@
   {
     "question": "what is cybersecurity?",
     "answer": "Cybersecurity is the practice of protecting systems, networks, and data from digital attacks."
+  },
+  {
+    "question": "i cant teach you im brainless",
+    "answer": "hello boy"
+  },
+  {
+    "question": "ikol",
+    "answer": "jijni"
   }
 ]
